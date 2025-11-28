@@ -3,7 +3,7 @@ const messages = [
     "ISSAC",
     "SCP-5113",
     "Click the Guy!",
-    "Loading content, just for you!",
+    "Fun Fact: There's A Old Version Of MrRedCatWiki",
     "Unlocking new possibilities..."
 ];
 
@@ -15,3 +15,4 @@ loadingMessageElement.textContent = messages[randomIndex];
 setTimeout(() => {
     window.location.href = 'home.html'; // Replace with your target page
 }, 3000); // 3000 milliseconds = 3 seconds
+
