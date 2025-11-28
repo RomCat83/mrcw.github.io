@@ -4,7 +4,7 @@ const messages = [
     "SCP-5113",
     "Click the Guy!",
     "Fun Fact: There's A Old Version Of MrRedCatWiki",
-    "Unlocking new possibilities..."
+    "WiGgLe WiGgLe GoOsE gOoSe"
 ];
 
 const loadingMessageElement = document.querySelector('.loading-message');
@@ -15,4 +15,5 @@ loadingMessageElement.textContent = messages[randomIndex];
 setTimeout(() => {
     window.location.href = 'home.html'; // Replace with your target page
 }, 3000); // 3000 milliseconds = 3 seconds
+
 
